@@ -170,7 +170,7 @@ void Disk::LOOK()
             head_pos = tracks[i];
         }
         // reverse
-        for (i = index - 1; i >= 0; i--) // from insex less tha head_pos go till lowest req
+        for (i = index - 1; i >= 0; i--) // from index less tha head_pos go till lowest req
         {
             cout << " --> " << tracks[i];
             total_head_mov = total_head_mov + abs(tracks[i] - head_pos);
@@ -220,3 +220,4 @@ int main()
     return 0;
 }
 // 98 183 37 122 14 124 65 67 FCFS and SCAN
+//176 79 34 60 92 11 41 114 LOOK
