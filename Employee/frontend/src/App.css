@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(2, 8, 32);
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(4, 20, 57);
+  border-radius: 4px;
+}
+body {
+  background-image: url("street.jpg") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  opacity: 2.8;
+  color: aliceblue;
+}
+tr, th{
+  border: 1px solid;
+}
+input{
+  width: 80%;
+  padding: 12px 20px 1px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: 2px solid #672626;
+}
+input[type=search]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+.button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 150px;
+  color: rgba(10, 13, 78, 0.455);
+  border-radius: 17px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.update {
+   
+  color: rgb(142, 176, 139); 
+  border: 2px solid #4CAF50;
+}
+
+.update:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete {
+ 
+  color: rgb(190, 129, 129); 
+  border: 2px solid #ae0808;
+}
+
+.delete:hover {
+  background-color: #ae0808;
+  color: white;
+}
+
+.addHome {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04094d;
+  float:inline-start
+}
+
+.addHome:hover {
+  background-color: #04094d;
+  color: white;
+}
+/* .card {
+  
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.7s;
+  background:#030d21;
+  background-size: 200px 10px;
+}
+.card:hover {
+  background-color: #0f1d6a78;
+  color: white;
+} */
+
+
+/* On mouse-over, add a deeper shadow */
+
+/* Add some padding inside the card container */
+.employee.container {
+  margin-top: 240px;
+  width: 300px;
+  padding: 30px;
+  position:relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 10px 10px 5px black;
+}
+.employee.container:hover{
+  background-color: #0f1d6a78;
+  color: white;
+  transition: 1.2s;
+
+}
+
+.see{
+  background-color: #270e3e; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
